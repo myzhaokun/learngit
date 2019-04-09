@@ -1,0 +1,37 @@
+安装后
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+创建空目录
+$ mkdir learngit
+$ cd learngit
+$ pwd
+/Users/michael/learngit
+
+把目录编程仓库
+$ git init
+
+添加文本文件进入仓库
+$ git add readme.txt
+
+提交到仓库
+$ git commit -m "wrote a readme file"
+[master (root-commit) eaadf4e] wrote a readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.txt
+
+创建本地SHH KEY
+$ ssh-keygen -t rsa -C "youremail@example.com"
+
+连接远程仓库
+$ git remote add origin git@github.com:连接的账户/learngit.git
+
+本地库上传到远程库
+$ git push -u origin master
+
+克隆远程库
+$ git clone git@github.com:远程库用户名/gitskills.git
+
+查看本地库文件
+$ cd gitskills
+$ ls
