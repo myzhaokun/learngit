@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>晨讲面试复习题总结</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h5>1.列出JAVA中所有基本数据类型，并说明这些数据类型占用的字节数？</h5>
+<p><strong>答案：</strong></p>
+<p>java的原始数据类型，也可以叫java的基本数据类型，一共8个，分别是：</p>
+<p>byte、short、int、long、float、double、char、boolean</p>
+<p>byte 1个字节
+boolean 1个字节
+char 2个字节
+short 2个字节
+int 4个字节
+long 8个字节
+float 4个字节
+double 8个字节</p>
+<h5>2.能将 int 强制转换为 byte 类型的变量吗？如果该值大于 byte 类型的范围，将会出现什么现象？</h5>
+<p><strong>答案：</strong></p>
+<p>可以做强制转换，但是 Java 中 int 是 32 位的，而 byte 是 8 位的，所以，如果强制转化是，int 类型的高 24 位将会被丢弃，byte 类型的范围是从 -128 到 128。</p>
+<h5>3.Java语言中使用哪两个类封装大数据类型？分别有什么作用？</h5>
+<p><strong>答案：</strong></p>
+<p>Java语言中有两个大数据类型，即BigInteger和BigDecimal，其中BigInteger可以封装任意精度的整形数值，而BigDecimal可以封装任意精度的有符号数，包括整书和浮点数。</p>
+<h5>4.&amp;和&amp;&amp;的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>&amp;和&amp;&amp;都可以用作逻辑与的运算符，表示逻辑与（and），当运算符两边的表达式的结果都为true时，整个运算结果才为true，否则，只要有一方为false，则结果为false。</p>
+<p>&amp;&amp;还具有短路的功能，即如果第一个表达式为false，则不再计算第二个表达式。</p>
+<p>例如，对于if(str != null &amp;&amp; !str.equals(“”))表达式，当str为null时，后面的表达式不会执行，所以不会出现NullPointerException如果将&amp;&amp;改为&amp;，则会抛出NullPointerException异常。If(x==33 &amp; ++y&gt;0) y会增长，If(x==33 &amp;&amp; ++y&gt;0)不会增长</p>
+<p>&amp;还可以用作位运算符，当&amp;操作符两边的表达式不是boolean类型时，&amp;表示按位与操作，我们通常使用0x0f来与一个整数进行&amp;运算，来获取该整数的最低4个bit位，例如，0x31 &amp; 0x0f的结果为0x01。</p>
+<h5>5.continue和 break有什么区别？</h5>
+<p><strong>答案：</strong></p>
+<p>break和continue都是用来控制循环结构的，主要是停止循环。</p>
+<p>1.break</p>
+<p>有时候我们想在某种条件出现的时候终止循环而不是等到循环条件为false才终止。
+这是我们可以使用break来完成。break用于完全结束一个循环，跳出循环体执行循环后面的语句。</p>
+<p>2.continue</p>
+<p>continue和break有点类似，区别在于continue只是终止本次循环，接着还执行后面的循环，break则完全终止循
+环。</p>
+<p>可以理解为continue是跳过当次循环中剩下的语句，执行下一次循环。</p>
+<h5>6.在switch语句中可以用byte吗？可以用long吗？可以用String吗？</h5>
+<p><strong>答案：</strong></p>
+<p>jdk1.6 可以用 byte ，int，short，char</p>
+<p>jdk1.7及以上可以用byte，int，short，char，String</p>
+<h5>7.例举6种数据结构和它们的作用?（了解）</h5>
+<p><strong>答案：</strong></p>
+<p>ArrayList实现了可变大小的数组。它允许所有元素，包括null。ArrayList没有同步。</p>
+<p>LinkedList实现了List接口，允许null元素。此外LinkedList提供额外的get，remove，insert方法在
+LinkedList的首部或尾部。这些操作使LinkedList可被用作堆栈（stack），队列（queue）或双向队列（deque）。</p>
+<p>Vector非常类似ArrayList，但是Vector是同步的。</p>
+<p>Stack继承自Vector，实现一个后进先出的堆栈。Stack提供5个额外的方法使得Vector得以被当作堆栈使用。基本的push和pop方法，还有peek方法得到栈顶的元素，empty方法测试堆栈是否为空，search方法检测一个元素在堆栈中的位置。Stack刚创建后是空栈。</p>
+<p>Set是一种不包含重复的元素的Collection，即任意的两个元素e1和e2都有e1.equals(e2)=false，Set最多有一个null元素。</p>
+<p>Hashtable继承Map接口，实现一个key-value映射的哈希表。任何非空（non-null）的对象都可作为key或者value。</p>
+<p>HashMap和Hashtable类似，不同之处在于HashMap是非同步的，并且允许null，即null value和null key。</p>
+<p>WeakHashMap是一种改进的HashMap，它对key实行“弱引用”，如果一个key不再被外部所引用，那么该key可以被GC回收。</p>
+<h5>8.面向对象的特征有哪些方面？</h5>
+<p><strong>答案：</strong></p>
+<p>三大特性是：封装,继承,多态  </p>
+<p>所谓封装，也就是把客观事物封装成抽象的类，并且类可以把自己的数据和方法只让可信的类或者对象操作，对不可信的进行信息隐藏。封装是面向对象的特征之一，是对象和类概念的主要特性。 简单的说，一个类就是一个封装了数据以及操作这些数据的代码的逻辑实体。在一个对象内部，某些代码或某些数据可以是私有的，不能被外界访问。通过这种方式，对象对内部数据提供了不同级别的保护，以防止程序中无关的部分意外的改变或错误的使用了对象的私有部分。</p>
+<p>所谓继承是指可以让某个类型的对象获得另一个类型的对象的属性的方法。它支持按级分类的概念。继承是指这样一种能力：它可以使用现有类的所有功能，并在无需重新编写原来的类的情况下对这些功能进行扩展。 通过继承创建的新类称为“子类”或“派生类”，被继承的类称为“基类”、“父类”或“超类”。继承的过程，就是从一般到特殊的过程。要实现继承，可以通过“继承”（Inheritance）和“组合”（Composition）来实现。继承概念的实现方式有二类：实现继承与接口继承。实现继承是指直接使用基类的属性和方法而无需额外编码的能力；接口继承是指仅使用属性和方法的名称、但是子类必须提供实现的能力；</p>
+<p>所谓多态就是指一个类实例的相同方法在不同情形有不同表现形式。多态机制使具有不同内部结构的对象可以共享相同的外部接口。这意味着，虽然针对不同对象的具体操作不同，但通过一个公共的类，它们（那些操作）可以通过相同的方式予以调用。</p>
+<h5>9.抽象类和接口的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>1).抽象类可以有构造方法，接口中不能有构造方法。</p>
+<p>2).抽象类中可以有普通成员变量，接口中没有普通成员变量</p>
+<p>3).抽象类中可以包含非抽象的普通方法，接口中的所有方法必须都是抽象的，不能有非抽象的普通方法。</p>
+<p>4). 抽象类中的抽象方法的访问类型可以是public，protected 和（默认类型,虽然eclipse 下不报错，但应该也不行），但接口中的抽象方法只能是public 类型的，并且默认即为public，abstract 类型。</p>
+<p>5). 抽象类中可以包含静态方法，接口中不能包含静态方法</p>
+<p>6). 抽象类和接口中都可以包含静态成员变量，抽象类中的静态成员变量的访问类型可以任意，
+但接口中定义的变量只能是public static final 类型，并且默认即为public static final 类型。</p>
+<p>7). 一个类可以实现多个接口，但只能继承一个抽象类。</p>
+<h5>10.静态变量和实例变量的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>在语法定义上的区别：
+静态变量前要加static 关键字，而实例变量前则不加。</p>
+<p>在程序运行时的区别：
+实例变量属于某个对象的属性，必须创建了实例对象，其中的实例变量才会被分配空间，才能使用这个实例变量。静态变量不属于某个实例对象，而是属于类，所以也称为类变量，只要程序加载了类的字节码，不用创建任何实例对象，静态变量就会被分配空间，静态变量就可以被使用了。总之，实例变量必须创建对象后才可以通过这个对象来使用，静态变量则可以直接使用类名来引用。</p>
+<h5>11.多态的表现形式有哪些?</h5>
+<p><strong>答案：</strong></p>
+<p>重写和重载。向上造型</p>
+<h5>12.构造器能不能重写，重载？</h5>
+<p><strong>答案：</strong></p>
+<p>能被重载，不能被重写</p>
+<h5>13.能不能声明main()方法为非静态？</h5>
+<p><strong>答案：</strong></p>
+<p>不能，main()方法必须声明为静态的，这样JVM才可以调用main()方法而无需实例化它的类。
+如果从main()方法去掉“static”这个声明，虽然编译依然可以成功，但在运行时会导致程序失败。</p>
+<h5>14.使用final 关键字修饰一个变量时，是引用不能变，还是引用的对象不能变?</h5>
+<p><strong>答案：</strong></p>
+<p>使用final 关键字修饰一个变量时，是指引用变量不能变，引用变量所指向的对象中的内容还是可以改变的。</p>
+<h5>15.重载与重写的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>1.重写必须继承，重载不用。</p>
+<p>2.重写的方法名，参数列表相同，方法体不同，重载的方法名相同，参数列表不同，方法体不同。</p>
+<p>3.重写的方法修饰符大于等于父类的方法，重载和修饰符无关。</p>
+<p>4.重写不可以抛出父类没有抛出的一般异常，可以抛出运行时异常。</p>
+<h5>16.什么是重写？</h5>
+<p><strong>答案</strong></p>
+<p>重写遵循&quot;两同两小一大&quot;原则:</p>
+<p>1)两同:</p>
+<pre><code>1.1)方法名称相同
+
+1.2)参数列表相同
+</code></pre>
+
+<p>2)两小:</p>
+<pre><code>2.1)子类方法的返回值类型小于或等于父类的
+
+    2.2.1)void时，必须相等
+    2.2.2)基本类型时，必须相等
+    2.2.3)引用类型时，小于或等于
+
+2.2)子类抛出的异常小于或等于父类的
+</code></pre>
+
+<p>3)一大:</p>
+<pre><code>3.1)子类方法的访问权限大于或等于父类的
+</code></pre>
+
+<h5>17.接口是否可以继承接口？抽象类是否可以实现（implements）接口？ 抽象类是否可以继承实体类（concrete class）？</h5>
+<p><strong>答案：</strong></p>
+<p>接口可以继承接口，可以继承多个接口</p>
+<p>抽象类可以实现接口，可以实现多个接口</p>
+<p>抽象类可以继承类，但只能继承一个类</p>
+<h5>18.JAVA中作用域修饰符有四种：public、private、protected、默认访问控制符。请说明四种修饰符的访问权限？</h5>
+<p><strong>答案：</strong></p>
+<p>java的四个访问修饰符：</p>
+<p>1)public:公开的，任何类</p>
+<p>2)private:私有的，本类</p>
+<p>3)protected:受保护的，本类、子类、同包类</p>
+<p>4）x默认的:什么也不写，本类、同包类</p>
+<p>类的访问修饰: public和默认的</p>
+<p>类中成员的访问修饰: 如上4种都可以</p>
+<h5>19.如果有两个类A、B（注意不是接口），你想同时使用这两个类的功能，那么你会如何编写这个C类呢？</h5>
+<p><strong>答案：</strong></p>
+<p>因为类A、B不是接口，所以是不可以直接继承的，但可以将A、B类定义成父子类，那么C类就能实现A、B类的功能了。假如A为B的父类，B为C的父类，此时C就能实现A、B的功能。</p>
+<h5>20．简述static final，finally的作用和区别？</h5>
+<p><strong>答案：</strong></p>
+<p>final关键字</p>
+<p>1、final修饰类，表示该类不能被继承，因此，一个类不能同事被声明为abstract抽象类和final的类；</p>
+<p>2、final修饰变量，则该变量必须赋初值，而且它的取值在整个过程都不会改变；</p>
+<p>3、final修饰方法，称为最终方法。它不可被子类重新定义，即不可被覆盖，也不能被重载；</p>
+<p>static关键字</p>
+<p>1、static定义的数据或方法，可以不用new出类的实例而让类直接调用；</p>
+<p>2、static代码块；static关键字还有一个比较关键的作用就是 用来形成静态代码块以优化程序性能。</p>
+<p>finally：java的一种异常处理机制。</p>
+<p>1、finally是对Java 异常处理模型的最佳补充。finally 结构使代码总会执行，而不管有无异常发生。</p>
+<p>2、使用 finally 可以维护对象的内部状态，并可以清理非内存资源。</p>
+<p>3、特别是在关闭数据库连接这方面，如果程序员把数据库连接的close()方法放到finally中，就会大大降低程序出错的几率。</p>
+<h5>21.GC是什么?GC的作用</h5>
+<p><strong>答案：</strong></p>
+<p>GC是垃圾收集的意思，内存处理是编程人员容易出现问题的地方，忘记或者错误的内存回收会导致程序或系统的不稳定甚至崩溃，Java提供的GC功能可以自动监测对象是否超过作用域从而达到自动回收内存的目的。</p>
+<p>Java语言没有提供释放已分配内存的显示操作方法。Java程序员不用担心内存管理，因为垃圾收集器会自动进行管理。要请求垃圾收集，可以调用下面的方法之一：System.gc()或Runtime.getRuntime().gc()，但JVM可以屏蔽掉显示的垃圾回收调用。 </p>
+<p>垃圾回收可以有效的防止内存泄露，有效的使用可以使用的内存。垃圾回收器通常是作为一个单独的低优先级的线程运行，不可预知的情况下对内存堆中已经死亡的或者长时间没有使用的对象进行清除和回收，程序员不能实时的调用垃圾回收器对某个对象或所有对象进行垃圾回收。</p>
+<h5>22.JDK的类，包。接口各写5个</h5>
+<p><strong>答案：</strong></p>
+<p>类：ArrayList、HashSet、HashMap、File、Thread</p>
+<p>包：java.lang、java.io、java.util、java.sql、javax.servlet</p>
+<p>接口：Collection、List、Set、HttpServletRequest、HttpServletResponse</p>
+<h5>23.说出ArrayList,Vector,LinkedList的储存性能和特性？</h5>
+<p><strong>答案：</strong></p>
+<p>ArrayList 采用的是数组形式来保存对象的，这种方式将对象放在连续的位置中，所以最大的缺点就是插入删除时非常麻烦</p>
+<p>LinkedList 采用的将对象存放在独立的空间中，而且在每个空间中还保存下一个链接的索引 但是缺点就是查找非常麻烦 要丛第一个索引开始</p>
+<p>ArrayList和Vector都是用数组方式存储数据,此数组元素数要大于实际的存储空间以便进行元素增加和插入操作,他们都允许直接用序号索引元素,但是插入数据元素涉及到元素移动等内存操作,所以索引数据快而插入数据慢.</p>
+<p>Vector使用了sychronized方法(线程安全),所以在性能上比ArrayList要差些</p>
+<p>LinkedList使用双向链表方式存储数据,按序号索引数据需要前向或后向遍历数据，所以索引数据慢,是插入数据时只需要记录前后项即可,所以插入的速度快</p>
+<p>arraylist和vector的区别：</p>
+<p>1).同步性:Vector是线程安全的，也就是说是同步的，而ArrayList是线程不安全的，不是同步的 </p>
+<p>2).数据增长:当需要增长时,Vector默认增长为原来一培，而ArrayList却是原来的一半</p>
+<h5>24.Collection和Collections的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>Collection是集合类的上级接口，继承与他有关的接口主要有List和Set</p>
+<p>Collections是针对集合类的一个帮助类，他提供一系列静态方法实现对各种集合的搜索、排序、线程安全等操作</p>
+<h5>25.String是最基本的数据类型吗？</h5>
+<p><strong>答案：</strong></p>
+<p>基本数据类型包括：byte,short,int,long,float,double,boolean,char</p>
+<p>String是类代表字符串，属于引用类型</p>
+<h5>26.HashMap的结构，及数据如何存入HashMap（涉及的底层问题，被提问的概率很大）？</h5>
+<p><strong>答案：</strong></p>
+<p>数据结构中有数组和链表来实现对数据的存储，但这两者基本上是两个极端。</p>
+<p>数组 ：数组的存储区是连续的，占用内存严重，故空间复杂度非常大。但数组的二分查找时间度小；数组的特点：寻址easy，插入和删除困难。</p>
+<p>链表 ：链表的储存区离散。占用内存比較宽松。故空间复杂度非常小，但时间复杂度大；链表的特点：寻址困难，插入和删除easy。</p>
+<p>HashMap是由数组+链表组成。HashMap事实上也是由一个线性的数组实现的。所以能够理解为其存储数据的容器就是一个线性容器；</p>
+<h5>27.HashMap 和Hashtable 的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>1、历史原因:Hashtable 是基于陈旧的Dictionary 类的，HashMap 是Java 1.2 引进的Map 接口的一个实现</p>
+<p>2、同步性:Hashtable 是线程安全的，也就是说是同步的，而HashMap 是线程序不安全的，不是同步的</p>
+<p>3、值：只有HashMap 可以让你将空值作为一个表的条目的key 或value</p>
+<h5>28.数组有没有length()这个方法？String有没有length()这个方法？</h5>
+<p><strong>答案：</strong></p>
+<p>数组没有length()这个方法,但有这个属性；String有length()方法。</p>
+<h5>29.List、Map、Set三个接口，存取元素时，各有什么特点？</h5>
+<p><strong>答案：</strong></p>
+<p>List特点：元素有放入顺序，元素可重复</p>
+<p>Set特点：元素无放入顺序，元素不可重复（注意：元素虽然无放入顺序，但是元素在set中的位置是有该元素的HashCode决定的，其位置其实是固定的）</p>
+<p>Map特点：元素按键值对存储，无放入顺序</p>
+<h5>30.  队列和栈是什么，列出它们的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>队列（Queue）是限定只能在表的一端进行插入和在另一端进行删除操作的线性表。</p>
+<p>栈（Stack）是限定只能在表的一端进行插入和删除操作的线性表。</p>
+<p>1.队列先进先出，栈先进后出。</p>
+<p>2.对插入和删除操作的&quot;限定&quot;。 栈是限定只能在表的一端进行插入和删除操作的线性表。队列是限定只能在表的一端进行插入和在另一端进行删除操作的线性表。</p>
+<p>3.遍历数据速度不同。队列遍历数据的速度要快得多。</p>
+<h5>31.String类为什么是final的？</h5>
+<p><strong>答案：</strong></p>
+<p>主要是为了“效率”和“安全性”的缘故。若 String允许被继承, 由于它的高度被使用率,可能会降低程序的性能，所以String被定义成final;</p>
+<h5>32.可以在 hashcode() 中使用随机数字吗？</h5>
+<p><strong>答案：</strong></p>
+<p>不行，因为对象的 hashcode 值必须是相同的。</p>
+<h5>33.Java 中，Comparator 与 Comparable 有什么不同？</h5>
+<p><strong>答案：</strong></p>
+<p>Comparable 接口用于定义对象的自然顺序，而 comparator 通常用于定义用户定制的顺序。Comparable 总是只有一个，但是可以有多个 comparator 来定义对象的顺序。</p>
+<h5>34.为什么在重写 equals 方法的时候需要重写 hashCode 方法？</h5>
+<p><strong>答案：</strong></p>
+<p>因为有强制的规范指定需要同时重写 hashcode 与 equal 方法，许多容器类，如 HashMap、HashSet 都依赖于 hashcode 与 equals 的规定。</p>
+<h5>35.throws 关键字和 throw 关键字有什么区别和联系？</h5>
+<p><strong>答案：</strong></p>
+<p>throws和throw是异常处理时两个常见的关键字，初级程序员常常容易正确理解throw和throws的作用和区别，说明已经能比较深入理解异常处理。</p>
+<p>Throw用来抛出异常，如果执行了throw语句，程序将发生异常，进入到异常处理机制。</p>
+<p>Throws用来声明异常，说明这个方法可能会发生某些类型的异常，那么编译器将强制在调用这个方法的时候处理异常。API中的很多方法都使用了throws声明了异常，所以使用这些方法时编译器会提示需要处理异常。</p>
+<p>如果一个方法中使用了throw关键字抛出了异常，那么要么立即用try/catch语句进行捕获，要么就是用throws进行声明，否则将出现编译错误。然而，并不是只有使用了throw关键字之后才能使用throws关键字，语法上来说，任何一个方法都可以直接使用throws关键字，抽象方法也可以使用。</p>
+<h5>36.String，StringBuffer与StringBuilder的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>三者在执行速度方面的比较：StringBuilder &gt;  StringBuffer  &gt;  String</p>
+<p>StringBuilder与 StringBuffer区别：</p>
+<p>1、StringBuilder：线程非安全的
+2、StringBuffer：线程安全的</p>
+<p>String和StringBuffer区别： </p>
+<p>String类对象不可变，StringBuffer类是可以通过Append()来修改值，一旦修改String的值就是隐形的重建了一个新的对象，释放了原String对象。</p>
+<p>String 性能比不上StringBuffer</p>
+<p>字符串连接String的+比StringBuffer的Append()性能差了很多</p>
+<p>String:</p>
+<p>1、是对象不是原始类型.</p>
+<p>2、为不可变对象,一旦被创建,就不能修改它的值.</p>
+<p>3、对于已经存在的String对象的修改都是重新创建一个新的对象,然后把新的值保存进去.</p>
+<p>4、String 是final类,即不能被继承.</p>
+<p>StringBuffer:</p>
+<p>是一个可变对象,当对他进行修改的时候不会像String那样重新建立对象它只能通过构造函数来建立,StringBuffer sb = new StringBuffer();</p>
+<p>注意:不能通过赋值符号对他进行赋值。sb = &quot;welcome to here!&quot;;//error</p>
+<p>对象被建立以后,在内存中就会分配内存空间,并初始保存一个null.向StringBuffer中赋值的时候可以通过它的append方法。sb.append(&quot;hello&quot;);  </p>
+<h5>37.Set集合怎么判断元素是否重复？用==还是equal()？它们的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>HashSet不能添加重复的元素，当调用add（Object）方法时候，首先会调用Object的hashCode方法判hashCode是否已经存在，如不存在则直接插入元素；</p>
+<p>如果已存在则调用Object对象的equals方法判断是否返回true，如果为true则说明元素已经存在，如为false则插入元素。</p>
+<p>为了保证HashSet中的对象不会出现重复值，在被存放元素的类中必须要重写hashCode()和equals()这两个方法。</p>
+<h5>38.int 和Integer的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>1、Integer是int提供的封装类，而int是Java的基本数据类型；</p>
+<p>2、Integer默认值是null，而int默认值是0；</p>
+<p>3、声明为Integer的变量需要实例化，而声明为int的变量不需要实例化；</p>
+<p>4、Integer是对象，用一个引用指向这个对象，而int是基本类型，直接存储数值。</p>
+<h5>39.switch 语句能否作用在byte 上，能否作用在long 上，能否作用在String 上?</h5>
+<p><strong>答案：</strong></p>
+<p>byte能用在switch</p>
+<p>long不能用在switch</p>
+<p>jdk1.6及以下，String不能用在switch上</p>
+<p>jdk1.7及以上，String能用在switch上</p>
+<h5>40.“==”和“equals”的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>==是判断两端对象的地址是否是一个，如果地址是一个，那么内容也是相同的</p>
+<p>equals方法判断的是内容，两个对象的地址可以不相同，但前提必须重写过equals方法如果没有重写过的equals方法是Object的方法，此方法判断的是地址</p>
+<h5>41.HashMap与普通Map的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>Map是一个接口</p>
+<p>HashMap是一个实现了map接口的类</p>
+<p>接口不能new对象</p>
+<h5>42. Vector &amp; ArrayList ？</h5>
+<p><strong>答案：</strong></p>
+<p>1） Vector 的方法都是同步的(Synchronized),是线程安全的(thread-safe)，而 ArrayList 的方法不是，由于线程的同步必然要影响性能，因此,ArrayList 的性能比 Vector 好。</p>
+<p>2） 当 Vector 或 ArrayList 中的元素超过它的初始大小时,Vector 会将它的容量翻倍,而 ArrayList 只增加 50%的大小，这样,ArrayList 就有利于节约内存空间。</p>
+<h5>43．为什么在所有操作都是read的情况下，推荐用ArrayList代替Vector？</h5>
+<p><strong>答案：</strong></p>
+<p>ArrayList和Vector都实现了List接口，和ArrayList相比，Vector中的大部分方法都是同步的，效率不高，故推荐使用ArrayList来代替Vector。</p>
+<h5>44.同步和异步有何异同，在什么情况下分别使用他们？举例说明。</h5>
+<p><strong>答案：</strong></p>
+<p>如果数据将在线程间共享。例如正在写的数据以后可能被另一个线程读到，或者正在读的数据可能已经被另一个线程写过了，那么这些数据就是共享数据，必须进行同步存取。</p>
+<p>当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。</p>
+<h5>45.Array和ArrayList有何区别？什么时候更适合用Array？</h5>
+<p><strong>答案：</strong></p>
+<p>Array可以容纳基本类型和对象，而ArrayList只能容纳对象。</p>
+<p>Array是指定大小的，而ArrayList大小是固定的。</p>
+<p>Array没有提供ArrayList那么多功能，比如addAll、removeAll和iterator等。尽管ArrayList明显是更好的选择，但也有些时候Array比较好用。</p>
+<p>（1）如果列表的大小已经指定，大部分情况下是存储和遍历它们。</p>
+<p>（2）对于遍历基本数据类型，尽管Collections使用自动装箱来减轻编码任务，在指定大小的基本类型的列表上工作也会变得很慢。</p>
+<p>（3）如果你要使用多维数组，使用[ ][ ]比List&lt;List&lt;&gt;&gt;更容易。</p>
+<h5>46.创建线程有几种不同的方式？你喜欢哪一种？为什么？</h5>
+<p><strong>答案：</strong></p>
+<p>有三种方式可以用来创建线程：
+1、继承Thread类</p>
+<p>2、实现Runnable接口</p>
+<p>3、应用程序可以使用Executor框架来创建线程池</p>
+<p>实现Runnable接口这种方式更受欢迎，因为这不需要继承Thread类。在应用设计中已经继承了别的对象的情况下，这需要多继承（而Java不支持多继承），只能实现接口。同时，线程池也是非常高效的，很容易实现和使用。</p>
+<h5>47.启动一个线程是用run()还是start()?</h5>
+<p><strong>答案：</strong></p>
+<p>启动线程要用start()方法。</p>
+<p>当用start()开始一个线程后，线程就进入就绪状态，使线程所代表的虚拟处理机处于可运行状态，这意味着它可以由JVM调度并执行。这并不意味着线程就会立即运行。当cpu分配给它时间时，才开始执行run()方法(如果有的话)。START()是方法,它调用RUN()方法.而RUN()方法是你必须重写的. run()方法中包含的是线程的主体</p>
+<h5>48.当一个线程进入一个对象的一个synchronized方法后，其它线程是否可进入此对象的其它方法?</h5>
+<p><strong>答案：</strong></p>
+<p>可以进入其他非synchronized的方法，synchronized的方法不可以</p>
+<p>Java中的每个对象都有一个锁（lock）或者叫做监视器（monitor），当访问某个对象的synchronized方法时，表示的将该对象上锁，此时其他任何线程都无法再去访问该synchronized方法了，直到之前的那个线程执行方法完毕后（或者是抛出了异常），才将该对象的锁释放掉，其他线程才有可能再去访问该synchronized方法。</p>
+<p>如果一个对象有多个synchronized方法，某一时刻某个线程已经进入到了某个synchronized方法，那么在该方法没有执行完毕前，其他线程是无法访问该对象的任何synchronized方法的。</p>
+<h5>49.error和exception有什么区别?</h5>
+<p><strong>答案：</strong></p>
+<p>Exception：</p>
+<p>1．可以是可被控制(checked) 或不可控制的(unchecked)</p>
+<p>2．表示一个由程序员导致的错误 </p>
+<p>3．应该在应用程序级被处理</p>
+<p>Error：</p>
+<p>1．总是不可控制的(unchecked) </p>
+<p>2．经常用来用于表示系统错误或低层资源的错误 </p>
+<p>3．如何可能的话，应该在系统级被捕捉</p>
+<h5>50.sleep（）和wait（）有什么区别？</h5>
+<p><strong>答案：</strong></p>
+<p>sleep就是正在执行的线程主动让出cpu，cpu去执行其他线程，在sleep指定的时间过后，cpu才会回到这个线程上继续往下执行，如果当前线程进入了同步锁，sleep方法并不会释放锁，即使当前线程使用sleep方法让出了cpu，但其他被同步锁挡住了的线程也无法得到执行。</p>
+<p>wait是指在一个已经进入了同步锁的线程内，让自己暂时让出同步锁，以便其他正在等待此锁的线程可以得到同步锁并运行，只有其他线程调用了notify方法（notify并不释放锁，只是告诉调用过wait方法的线程可以去参与获得锁的竞争了，但不是马上得到锁，因为锁还在别人手里，别人还没释放。如果notify方法后面的代码还有很多，需要这些代码执行完后才会释放锁，可以在notfiy方法后增加一个等待和一些代码，看看效果），调用wait方法的线程就会解除wait状态和程序可以再次得到锁后继续向下运行。</p>
+<h5>51.什么是 java 序列化，如何实现 java 序列化？</h5>
+<p><strong>答案：</strong></p>
+<p>序列化就是一种用来处理对象流的机制，所谓对象流也就是将对象的内容进行流化。可以对流化后的对象进行读写操作，也可将流化后的对象传输于网络之间。</p>
+<p>序列化是为了解决在对对象流进行读写操作时所引发的问题；</p>
+<p>序列化的实现：将需要被序列化的类实现 Serializable 接口，该接口没有需实现的方法，implements Serializable 只是为了标注该对象是可被序列化的，然后使用一个输出流(如 FileOutputStream)来 构造一个 ObjectOutputStream( 对象流 ) 对象接着使用ObjectOutputStream 对象的 writeObject(Object obj)方法就可以将参数为 obj 的对象写出(即保存其状态)，要恢复的话则用输入流。</p>
+<h5>52.死锁的必要条件？怎么克服？</h5>
+<p><strong>答案：</strong></p>
+<p>产生死锁的四个必要条件：</p>
+<p>1.互斥条件：一个资源每次只能被一个进程使用。</p>
+<p>2.请求与保持条件：一个进程因请求资源而阻塞时，对已获得的资源保持不放。</p>
+<p>3.不剥夺条件:进程已获得的资源，在末使用完之前，不能强行剥夺。</p>
+<p>4.循环等待条件:若干进程之间形成一种头尾相接的循环等待资源关系。</p>
+<p>这四个条件是死锁的必要条件，只要系统发生死锁，这些条件必然成立，而只要上述条件之一不满足， 就不会发生死锁。</p>
+<p>死锁的解决方法:</p>
+<p>1、撤消陷于死锁的全部进程；</p>
+<p>2、逐个撤消陷于死锁的进程，直到死锁不存在</p>
+<p>3、从陷于死锁的进程中逐个强迫放弃所占用的资源，直至死锁消失</p>
+<p>4、从另外一些进程那里强行剥夺足够数量的资源分配给死锁进程，以解除死锁状态</p>
+<h5>53.线程之间通信的方法有哪几个？分别起到什么作用？</h5>
+<p><strong>答案：</strong></p>
+<p>如果多个线程共享了某些数据，同时线程之间有存在一定的“依赖”关系，即执行某类线程必须依赖另一类的执行结果，如消费者必须等待生产者生产了商品才能消费。这种情况下，线程之间就需要通信。必须在同步代码块中调用线程通信的方法。</p>
+<p>线程通信的方法有三个，在Object类中定义。</p>
+<p>①wait方法：使得线程进入等待状态。</p>
+<p>②notify 方法：随意通知等待池中的某一个线程。</p>
+<p>③notifyAll 方法：通知等待池中所有线程。</p>
+<h5>54.什么是自定义异常类？为什么要自定义异常类？</h5>
+<p><strong>答案：</strong></p>
+<p>企业应用中，往往会自定义一系列的异常类，标记一些非正常的事件流。然而，这些自定义异常类不会让每个程序员都自定义，而是会由专人定义，分发给程序员使用。</p>
+<p>自定义异常类区别于API中的标准异常类，指的是开发人员自己创建的异常类。只要继承API中某个异常类就可以自定义一个异常类，常常集成Exception类。自定义异常类主要是为了标记业务逻辑中非正常事件流，避免与API中的标准异常混淆。</p>
+<h4>55.19.进程与线程的区别?</h4>
+<p><strong>答案：</strong></p>
+<p>一个进程至少有一个线程。线程的划分尺度小于进程，使得多线程程序的并发性高。</p>
+<p>另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。线程在执行过程中与进程的区别在于每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用来实现进程的调度和管理以及资源分配。</p>
+<h4>56.线程的生命周期?</h4>
+<p><strong>答案：</strong></p>
+<p>New：当我们创建一个线程时，该线程并没有纳入线程调度，其处于一个new状态。</p>
+<p>Runnable:当调用线程的start方法后，该线程纳入线程调度的控制，其处于一个可运行状态，等待分配时间片段以并发运行。</p>
+<p>Running:当该线程被分配到了时间片段后其被CPU运行，这是该线程处于running状态。</p>
+<p>Blocked:当线程在运行过程中可能会出现阻塞现象，比如等待用户输入信息等。但阻塞状态不是百分百出现的，具体要看代码中是否有相关需求。</p>
+<p>Dead:当线程的任务全部运行完毕，或在运行过程中抛出了一个未捕获的异常，那么线程结束，等待GC回收</p>
+<h5>57.怎么优化数据库的查询？（重点）</h5>
+<p><strong>答案：</strong></p>
+<p>1.对查询进行优化，应尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引。</p>
+<p>2.应尽量避免在 where 子句中使用!=或&lt;&gt;操作符。 </p>
+<p>3.应尽量避免在 where 子句中对字段进行 null 值判断。</p>
+<p>4.应尽量避免在 where 子句中使用 or 来连接条件。</p>
+<p>5.in 和 not in 也要慎用，否则会导致全表扫描，很多时候用 exists 代替 in 是一个好的选择。</p>
+<p>6.应尽量避免在 where 子句中对字段进行表达式操作。</p>
+<p>7.应尽量避免在where子句中对字段进行函数操作。</p>
+<h5>58.如何避免从数据库频繁查询数据？</h5>
+<p><strong>答案：</strong></p>
+<p>将一些频繁利用的查询语句，写成存储过程，可以减少不必要的资源浪费，这种已经编译好的过程可极大地改善SQL语句的性能。由于执行SQL语句的大部分工作已经完成，所以存储过程能以极快的速度执行。</p>
+<h5>59.什么是oracle数据库的存储过程？</h5>
+<p><strong>答案：</strong></p>
+<p>存储在数据库中供所有用户程序调用的子程序叫存储过程、存储函数。存储过程没有返回值。存储函数有返回值</p>
+<h5>60.数据库三范式是什么？（重点）</h5>
+<p><strong>答案：</strong></p>
+<p>第一范式(1NF)：字段具有原子性,不可再分。所有关系型数据库系统都满足第一范式）。</p>
+<p>第二范式(2NF)是在第一范式(1NF)的基础上建立起来的，即满足第二范(2NF)必须先满足第一范式(1N)第二范式(2NF）要求实体的属性完全依赖于主关键字。要求数据库表中的每个实例或行必须可以被惟一地区分。通常需要为表加上一个列，以存储各个实例的惟一标识。这个惟一属性列被称为主关键字或主键。</p>
+<p>第三范式具有如下特征： 1，每一列只有一个值2，每一行都能区分。3，每一个表都不包含其他表已经包含的非主关键字信息。</p>
+<h5>61.在数据库中条件查询速度很慢的时候,如何优化?（重点）</h5>
+<p><strong>答案：</strong></p>
+<p>1.建索引（a 提高查询检索的性能b 创建唯一索引c 创建主键d归类）</p>
+<p>2.减少表之间的关联</p>
+<p>3.优化sql，尽量让sql很快定位数据，不要让sql做全表查询，应该走索引,把数据量大的表排在前面</p>
+<p>4.简化查询字段，没用的字段不要，已经对返回结果的控制，尽量返回少量数据</p>
+<h5>62.关联查询中的内连接和外连接的的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>inner和outer连接。两种类型的主要区别在于，即使是在连接条件不满足的情况下，外部连接也会在结果集内返回行，而内部连接不会在结果集类返回行</p>
+<h5>63.数据库中事务是什么，有哪些特性？</h5>
+<p><strong>答案：</strong></p>
+<p>事务(Transaction)是访问并可能更新数据库中各种数据项的一个程序执行单元(unit)。</p>
+<p>事务通常由高级数据库操纵语言或编程语言（如SQL，C++或Java）书写的用户程序的执行所引起，并用形如begin transaction和end transaction语句（或函数调用）来界定。</p>
+<p>事务由事务开始(begin transaction)和事务结束(end transaction)之间执行的全体操作组成。
+例如：在关系数据库中，一个事务可以是一条SQL语句，一组SQL语句或整个程序。</p>
+<p>特性:</p>
+<p>事务是恢复和并发控制的基本单位。</p>
+<p>事务应该具有4个属性：原子性、一致性、隔离性、持续性。这四个属性通常称为ACID特性。</p>
+<p>原子性（atomicity）。一个事务是一个不可分割的工作单位，事务中包括的操作要么都做，要么都不做。</p>
+<p>一致性（consistency）。事务必须是使数据库从一个一致性状态变到另一个一致性状态。一致性与原子性是密切相关的。</p>
+<p>隔离性（isolation）。一个事务的执行不能被其他事务干扰。即一个事务内部的操作及使用的数据对并发的其他事务是隔离的，并发执行的各个事务之间不能互相干扰。</p>
+<p>持久性（durability）。持续性也称永久性（permanence），指一个事务一旦提交，它对数据库中数据的改变就应该是永久性的。接下来的其他操作或故障不应该对其有任何影响。</p>
+<h5>64.sql语句关键词的执行顺序？(重点)</h5>
+<p><strong>答案：</strong></p>
+<p>标准的 SQL 的解析顺序为:</p>
+<p>(1).FROM 子句, 组装来自不同数据源的数据</p>
+<p>(2).WHERE 子句, 基于指定的条件对记录进行筛选</p>
+<p>(3).GROUP BY 子句, 将数据划分为多个分组</p>
+<p>(4).使用聚合函数进行计算</p>
+<p>(5).使用 HAVING 子句筛选分组</p>
+<p>(6).计算所有的表达式</p>
+<p>(7).使用 ORDER BY 对结果集进行排序</p>
+<h5>65.数据库的truncate , delete ,drop的区别？</h5>
+<p><strong>答案：</strong></p>
+<ol>
+<li>
+<p>truncate和不带where子句的delete、以及drop都会删除表内的数据，保留表结构。</p>
+</li>
+<li>
+<p>drop、truncate都是DDL语句(数据定义语言),执行后会自动提交，不可回退。</p>
+</li>
+<li>
+<p>delete属于DML语句（数据操作语言），执行后可以回退。</p>
+</li>
+</ol>
+<h5>66.外连接的符号可以放在连接条件的哪边，可以两边同时使用吗？</h5>
+<p><strong>答案：</strong></p>
+<p>放在包含空值的一边，不可以两边同时使用</p>
+<h5>67.数据库有哪几种约束类型？</h5>
+<p><strong>答案：</strong></p>
+<p>五种约束分别是：</p>
+<p>PRIMARY KEY（主键）</p>
+<p>FOREIGN KEY（外键）</p>
+<p>UNIQUE（唯一）</p>
+<p>CHECK（检查）</p>
+<p>NOT NULL（非空）</p>
+<p>MODIFY（默认）</p>
+<h5>68.数据库对象有哪些？</h5>
+<p><strong>答案：</strong></p>
+<p>数据库数据对象中最基本的是表和视图，其他还有约束、序列、函数、存储过程、包、触发器等。对数据库的操作可以基本归结为对数据对象的操作</p>
+<h5>69.视图和表的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>表是实实在在得保存数据的实体，写入的数据都保存在表中；</p>
+<p>视图是不保存数据的，也没有数据。可以这样理解”视图就是一条语句，实际上视图从表中去数据“。只是给我们的感觉好像直接从表中取得一样。   </p>
+<p>表可以建立各种触发器，可以建立索引，可以建立主健、约束等。</p>
+<p>视图不能建立这些对象(视图可以建立替代触发器）。   </p>
+<p>表和视图可以更新，但是视图的更新受到约束。</p>
+<h5>70、索引的作用？和它的优点缺点是什么？</h5>
+<p><strong>答案：</strong></p>
+<p>创建索引可以大大提高系统的性能。</p>
+<p>第一，通过创建唯一性索引，可以保证Oracle数据库表中每一行数据的唯一性。</p>
+<p>第二，可以大大加快数据的检索速度，这也是创建索引的最主要的原因。</p>
+<p>第三，可以加速表和表之间的连接，特别是在实现数据的参考完整性方面特别有意义。</p>
+<p>第四，在使用分组和排序子句进行数据检索时，同样可以显着减少查询中分组和排序的时间。</p>
+<p>第五，通过使用索引，可以在查询的过程中，使用优化隐藏器，提高系统的性能。</p>
+<p>索引的优点和缺点：</p>
+<p>优点：方便了查询，在数据量大时排序更易查询</p>
+<p>缺点：建立索引，系统要占用大约为表1.2倍的硬盘和内存空间来保存索引。更新数据的时候，系统必须要有额外的时间来同时对索引进行更新，以维持数据和索引的一致性。</p>
+<p>建立索引的原则：</p>
+<p>1、在大表上建立索引才有意义</p>
+<p>2、在where子句或是连接条件上经常引用的列上建立索引</p>
+<p>3、索引的层次不要超过4层</p>
+<p>4、很少或从不引用的字段和逻辑型的字段，如男或女(是或否)等不要建立索引</p>
+<h5>71.Mysql 和 Oracle 有哪些区别？（重点）</h5>
+<p><strong>答案：</strong></p>
+<p>区别：</p>
+<p>1、数据类型，oracle表示数值用number，mysql用int或者bigint,oracle 字符串支持varchar2变长，mysql不支持</p>
+<p>2、自增长列，mysql可以使用auto_increment实现某数值列自增长，oracle需使用序列</p>
+<p>3、分页，mysql使用分页相对简单，在查询语句后面加上limit 2，3即可，oracle需用到子查询，rownum伪列表示</p>
+<p>4、分组查询不同， oracle中如果查询语句中有组函数，那其他列名必须是组函数处理过的，或者是group by子句中的列否则报错，mysql可以随便用</p>
+<p>5、日期处理不同，mysql有date和time两种，oracle只有date一种</p>
+<p>6、双引号，mysql在插入字符串时可以使用双引号表示，oracle只能使用单引号</p>
+<h5>72.数据库的核心系统是什么？</h5>
+<p><strong>答案：</strong></p>
+<p>数据库系统一般由数据库、数据库管理系统（DBMS）、应用系统、数据库管理员和用户构成。DBMS是数据库系统的基础和核心。</p>
+<h5>73.数据库实现的根本目的？</h5>
+<p><strong>答案：</strong></p>
+<p>数据库技术的主要目的是为了解决数据的共享问题</p>
+<h5>74.数据库实例与数据库的区别？（了解）</h5>
+<p><strong>答案：</strong></p>
+<p>数据库（database）：物理操作系统文件或磁盘（ disk）的集合。使用Oracle 10g 的自动存储管理（Automatic Storage Management，ASM）或RAW 分区时，数据库可能不作为操作系统中单独的文件，但定义仍然不变。</p>
+<p>数据库实例（instance）：一组Oracle 后台进程/线程以及一个共享内存区，这些内存由同一个计算机上运行的线程/进程所共享。这里可以维护易失的、非持久性内容（有些可以刷新输出到磁盘）。就算没有磁盘存储，数据库实例也能存在。也许实例不能算是世界上最有用的事物，不过你完全可以把它想成是最有用的事物，这有助于对实例和数据库划清界线。</p>
+<p>这两个词有时可互换使用，不过二者的概念完全不同。</p>
+<p>实例和数据库之间的关系是：数据库可以由多个实例装载和打开，而实例可以在任何时间点装载和打开一个数据库。实际上，准确地讲，实例在其整个生存期中最多能装载和打开一个数据库！</p>
+<p>Oracle数据库database，包括有数据文件、控制文件、重做日志文件，都是一些物理上的文件。 </p>
+<p>数据库实例instance，包括有数据库后台进程（PMON、SMON、DBWR、LGWR、CKPT等）和内存区域SGA（包括shared pool、db buffer cache、redo log buffer等）。实例是一系列复杂的内存结构和操作系统进程 </p>
+<p>严格的说：一个Oracle服务，只包括一个Oracle实例和一个数据库（不考虑双机并行等这样的情况）。但是一个实例只能对应一个数据库，一个数据库有可能对应多个实例。除非使用并行Oracle服务器选项，否则每个Oracle数据库都有一个实例与之相关，一个数据库被唯一的一个实例装载。 </p>
+<p>数据库与实例之间是1对1/n的关系，在非并行的数据库系统中每个Oracle数据库与一个实例相对应；在并行的数据库系统中，一个数据库会对应多个实例，同一时间用户只与一个实例相联系，当某一个实例出现故障时，其他实例自动服务，保证数据库正常运行。在任何情况下，每个实例都只可以对应一个数据库。</p>
+<h5>75.exist和in的区别？如何提高查询的速度？</h5>
+<p><strong>答案：</strong></p>
+<p>1、exist效率比in高,凡是in都应该用exist替换</p>
+<p>2、外大内小用exist,外小内大用in
+即：如果两个表中一个较小，一个是大表，则子查询表大的用exists，子查询表小的用in：</p>
+<p>IN： 确定给定的值是否与子查询或列表中的值相匹配。</p>
+<p>EXISTS：指定一个子查询，检测行的存在。</p>
+<h5>76.数据库连接池机制是什么？有什么好处？</h5>
+<p><strong>答案：</strong></p>
+<p>由于创建连接的代价是很高的, 我们每次访问数据库都重新创建连接的话是非常消耗性的.
+我们可以再程序启动的时候先创建出一些连接, 放在一个集合中, 访问数据库的时候从集合中获取, 使用结束再放回集合中这样做只是在程序启动的时候消耗性能去创建连接, 每次访问数据库的时候都是从内存中获取连接, 可以大大提升效率。</p>
+<h5>77.执行数据库查询时，如果要查询的数据很多，假设有1000万条，用什么办法提高查询效率？在数库方面或java代码方面有什么优化的办法？</h5>
+<p><strong>答案：</strong></p>
+<p>1、在数据库设计方面：</p>
+<p>（1）建立索引；  </p>
+<p>（2）分区；</p>
+<p>（3）尽量使用固定长度的字段；</p>
+<p>（4）限制字段长度；</p>
+<p>2、在数据库I/O方面：</p>
+<p>（1）增加缓冲区；</p>
+<p>（2）如果涉及表的级联，不同的表存储在不同的磁盘上，以增加I/O速度；</p>
+<p>3、在SQL语句方面：</p>
+<p>（1）优化SQL语句，减少比较次数；</p>
+<p>（2）限制返回的条目数;</p>
+<p>4、在Java方面：</p>
+<p>如果是反复使用的查询，使用PrepaerdStatement减少查询次数。</p>
+<h5>78.什么是HTML5？</h5>
+<p><strong>答案：</strong></p>
+<p>HTML5是最新的HTML标准，他的主要目标是提供所有内容而不需要任何的像flash，silverlight等的额外插件，这些内容来自动画，视频，富GUI等
+HTML5是万维网联盟（W3C）和网络超文本应用技术工作组（WHATWG）之间合作输出的</p>
+<h5>79.前端页面有哪三层构成，分别是什么?作用是什么?</h5>
+<p><strong>答案：</strong></p>
+<p>结构层 Html 用于定义网页布局和显示内容</p>
+<p>表示层 CSS  对html进行美化和修饰</p>
+<p>行为层 js  对html和css动态交互和控制</p>
+<h5>80.xhtml和html有什么区别？</h5>
+<p><strong>答案：</strong></p>
+<p>HTML是一种基本的WEB网页设计语言，XHTML是一个基于XML的置标语言</p>
+<p>最主要的不同：</p>
+<p>XHTML 元素必须被正确地嵌套。</p>
+<p>XHTML 元素必须被关闭。</p>
+<p>标签名必须用小写字母。</p>
+<p>XHTML 文档必须拥有根元素。</p>
+<h5>81.HTML中&quot;checkbox&quot;、&quot;text&quot;、“select”有什么用？</h5>
+<p><strong>答案：</strong></p>
+<p>checkbox为form表单中的复选框元素</p>
+<p>text为form表单中的文本框元素</p>
+<p>select为下拉列表框元素</p>
+<h5>82.在页面中看不见的表单元素是那种？</h5>
+<p><strong>答案：</strong></p>
+<p><input type="hidden" value=""></input></p>
+<h5>83.CSS有什么用？</h5>
+<p><strong>答案：</strong></p>
+<p>CSS是Cascading Style Sheets(层叠样式表)的简称.</p>
+<p>CSS语言是一种标记语言他主要的作用是可以改变网站页面的元素的大小 位置 方向 等等</p>
+<h5>84.CSS引入的方式有哪些? link和@import的区别是?</h5>
+<p><strong>答案：</strong></p>
+<p>内联 内嵌 外链 导入</p>
+<p>区别 ：同时加载</p>
+<p>前者无兼容性，后者CSS2.1以下浏览器不支持</p>
+<p>Link 支持使用javascript改变样式，后者不可</p>
+<h5>85.CSS选择符有哪些?哪些属性可以继承?优先级算法如何计算?内联和important哪个优先级高?</h5>
+<p><strong>答案：</strong></p>
+<p>标签选择符 类选择符 id选择符</p>
+<p>继承不如指定 Id&gt;class&gt;标签选择</p>
+<p>后者优先级高</p>
+<h5>86.如何用JavaScript写一段“Hello World”？</h5>
+<p><strong>答案：</strong></p>
+<p>document.write(&quot;Hello World&quot;);</p>
+<h5>87.javascript的全局函数有哪些？</h5>
+<p><strong>答案：</strong></p>
+<p>parseInt(String,radix):返回转换成整数的值。</p>
+<p>parseFloat(string):返回转换成浮点型的值。</p>
+<p>isFinite(value):检测某个是是否是无穷值</p>
+<p>isNaN(value):检测某个值是否是NaN。</p>
+<p>encodeURI(uri):将字符串编码为URI。</p>
+<p>encodeURIComponent(uri):将字符串编码为URI组件</p>
+<p>escape():对字符串进行编码</p>
+<p>eval():将JavaScript字符串当作脚本来执行</p>
+<p>Number(object):把对象的值转换为数字</p>
+<p>String():把对象的值转换为字符串</p>
+<h5>88.BS和CS的联系和区别？</h5>
+<p><strong>答案：</strong></p>
+<p>C/S结构，即Client/Server(客户机/服务器)结构，是大家熟知的软件系统体系结构，通过将任务合理分配到Client端和Server端，降低了系统的通讯开销，可以充分利用两端硬件环境的优势。早期的软件系统多以此作为首选设计标准。 </p>
+<p>B/S结构，即Browser/Server(浏览器/服务器)结构，是随着Internet技术的兴起，对C/S结构的一种变化或者改进的结构。在这种结构下，用户界面完全通过WWW浏览器实现，一部分事务逻辑在前端实现，但是主要事务逻辑在服务器端实现，形成所谓3-tier结构。 </p>
+<p>B/S结构，主要是利用了不断成熟的WWW浏览器技术，结合浏览器的多种scrīpt语言(VBscrīpt、Javascrīpt…)和ActiveX技术，用通用浏览器就实现了原来需要复杂专用软件才能实现的强大功能，并节约了开发成本，是一种全新的软件系统构造技术。随着Windows 98/Windows 2000将浏览器技术植入操作系统内部，这种结构更成为当今应用软件的首选体系结构。 </p>
+<p>C/S 与 B/S 区别： 
+Client/Server是建立在局域网的基础上的.Browser/Server是建立在广域网的基础上的.</p>
+<h5>89.什么是web容器？</h5>
+<p><strong>答案：</strong></p>
+<p>web容器是一种服务程序，在服务器一个端口就有一个提供相应服务的程序，而这个程序就是处理从客户端发出的请求，如JAVA中的Tomcat容器，ASP的IIS或PWS都是这样的容器。一个服务器可以多个容器。</p>
+<h5>90.CSS选择器有那些，分别说一下?</h5>
+<p><strong>答案：</strong></p>
+<p>标签选择器（如：body,div,p,ul,li）</p>
+<p>类选择器（如：class=&quot;head&quot;,class=&quot;head_logo&quot; </p>
+<p>ID选择器（如：id=&quot;name&quot;,id=&quot;name_txt&quot;）</p>
+<p>全局选择器（如：*号）</p>
+<p>组合选择器（如：.head .head_logo,注意两选择器用空格键分开）</p>
+<p>继承选择器（如：div p,注意两选择器用空格键分开）</p>
+<p>伪类选择器（如：就是链接样式,a元素的伪类，4种不同的状态：link、visited、active、hover）</p>
+<p>字符串匹配的属性选择符(^ $ *三种，分别对应开始、结尾、包含) </p>
+<h5>91.什么是javaScript？</h5>
+<p><strong>答案：</strong></p>
+<p>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。</p>
+<h5>92.jQuery 里的 ID 选择器和 class 选择器有何不同？</h5>
+<p><strong>答案：</strong></p>
+<p>ID 选择器使用 ID 来选择元素，比如 #element1</p>
+<p>class 选择器使用 CSS class 来选择元素。当你只需要选择一个元素时，使用 ID 选择器，而如果你想要选择一组具有相同 CSS class 的元素，就要用 class 选择器。</p>
+<h5>93.jQuery 里的 each() 是什么函数？你是如何使用它的？</h5>
+<p><strong>答案：</strong></p>
+<p>each() 函数就像是 Java 里的一个 Iterator，它允许你遍历一个元素集合。可以传一个函数给 each() 方法，被调用的 jQuery 对象会在其每个元素上执行传入的函数。</p>
+<h5>94.说出Servlet的生命周期？</h5>
+<p><strong>答案：</strong></p>
+<p>Servlet 生命周期：Servlet 加载---&gt;实例化---&gt;服务---&gt;销毁。</p>
+<p>init（）：在Servlet的生命周期中，仅执行一次init()方法。它是在服务器装入Servlet时执行的，负责初始化Servlet对象。可以配置服务器，以在启动服务器或客户机首次访问Servlet时装入Servlet。无论有多少客户机访问Servlet，都不会重复执行init（）。</p>
+<p>service（）：它是Servlet的核心，负责响应客户的请求。每当一个客户请求一个HttpServlet对象，该对象的Service()方法就要调用，而且传递给这个方法一个“请求”（ServletRequest）对象和一个“响应”（ServletResponse）对象作为参数。在HttpServlet中已存在Service()方法。默认的服务功能是调用与HTTP请求的方法相应的do功能。</p>
+<p>destroy（）： 仅执行一次，在服务器端停止且卸载Servlet时执行该方法。当Servlet对象退出生命周期时，负责释放占用的资源。一个Servlet在运行service()方法时可能会产生其他的线程，因此需要确认在调用destroy()方法时，这些线程已经终止或完成。</p>
+<h5>95.JSP和Servlet有哪些相同点和不同点，他们之间的联系是什么？</h5>
+<p><strong>答案：</strong></p>
+<p>jsp和servlet的区别和联系：</p>
+<p>1.jsp经编译后就变成了Servlet.(JSP的本质就是Servlet，JVM只能识别java的类，不能识别JSP的代码,Web容器将JSP的代码编译成JVM能够识别的java类)</p>
+<p>2.jsp更擅长表现于页面显示,servlet更擅长于逻辑控制.</p>
+<p>3.Servlet中没有内置对象，Jsp中的内置对象都是必须通过HttpServletRequest对象，HttpServletResponse对象以及HttpServlet对象得到.
+Jsp是Servlet的一种简化，使用Jsp只需要完成程序员需要输出到客户端的内容，Jsp中的Java脚本如何镶嵌到一个类中，由Jsp容器完成。而Servlet则是个完整的Java类，这个类的Service方法用于生成对客户端的响应。
+联系：  JSP是Servlet技术的扩展，本质上就是Servlet的简易方式。JSP编译后是“类servlet”。Servlet和JSP最主要的不同点在于，Servlet的应用逻辑是在Java文件中，并且完全从表示层中的HTML里分离开来。而JSP的情况是Java和HTML可以组合成一个扩展名为.jsp的文件。JSP侧重于视图，Servlet主要用于控制逻辑</p>
+<h5>96.JSP页面之间传递参数的方式有哪些？</h5>
+<p><strong>答案：</strong></p>
+<p>request、session、application、提交表单、超链接</p>
+<h5>97.Tomcat服务器的默认端口是多少？怎样修改tomcat的端口？</h5>
+<p><strong>答案：</strong></p>
+<p>默认端口为8080，可以通过service.xml的connector元素的port属性来修改
+端口。</p>
+<h5>98.转发与重定向的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>区别一：</p>
+<p>　　重定向时浏览器上的网址改变</p>
+<p>　　转发是浏览器上的网址不变</p>
+<p>区别二：</p>
+<p>　　重定向实际上产生了两次请求</p>
+<p>转发只有一次请求</p>
+<p>重定向：</p>
+<p>　　发送请求 --&gt;服务器运行--&gt;响应请求，返回给浏览器一个新的地址与响应码--&gt;浏览器根据响应码，判定该响应为重定向，自动发送一个新的请求给服务器，请求地址为之前返回的地址--&gt;服务器运行--&gt;响应请求给浏览器
+转发：</p>
+<p>　　发送请求 --&gt;服务器运行--&gt;进行请求的重新设置，例如通过request.setAttribute(name,value)--&gt;根据转发的地址，获取该地址的网页--&gt;响应请求给浏览器
+区别三：</p>
+<p>　　重定向时的网址可以是任何网址</p>
+<p>　　转发的网址必须是本站点的网址</p>
+<h5>99.get/post请求的区别?</h5>
+<p><strong>答案：</strong></p>
+<p>Get请求传输少量数据，不安全一般用来回去数据</p>
+<p>Post请求传输大量数据，安全，用来发送数据</p>
+<h5>100.MVC的各个部分都有那些技术来实现?如何实现?</h5>
+<p><strong>答案：</strong></p>
+<p>视图层：jsp、html超文本标记语言</p>
+<p>控制层： servlet，controller，action</p>
+<p>模型层：mybatis，entity，service</p>
+<h5>101.MVC的各个部分都有那些技术来实现?如何实现?</h5>
+<p><strong>答案：</strong></p>
+<p>1、模型（Model）</p>
+<p>模型是应用程序的主体部分。模型表示业务数据，或者业务逻辑. </p>
+<p>2、视图（View） </p>
+<p>视图是应用程序中用户界面相关的部分，是用户看到并与之交互的界面。</p>
+<p>3、控制器（controller) </p>
+<p>控制器工作就是根据用户的输入，控制用户界面数据显示和更新model对象状态。 </p>
+<p>MVC 式的出现不仅实现了功能模块和显示模块的分离，同时它还提高了应用系统的可维护性、可扩展性、可移植性和组件的可复用性 </p>
+<h5>102.jsp有哪些内置对象？作用分别是什么？</h5>
+<p><strong>答案：</strong></p>
+<p>JSP共有以下9种基本内置组件</p>
+<p>1、request对象 客户端请求，此请求会包含来自GET/POST请求的参数通过它才能了解到客户的需求，然后做出响应。</p>
+<p>2、response对象 响应客户请求的有关信息</p>
+<p>3、session对象 它指的是客户端与服务器的一次会话，从客户端连到服务器的一个WebApplication开始，直到客户端与服务器断开连接为止。</p>
+<p>4、out对象   它是JspWriter类的实例,是向客户端输出内容常用的对象</p>
+<p>5、page对象   它是指向当前JSP页面本身，有点象类中的this指针，它是 Java.lang.Object类的实例</p>
+<p>6、application对象 它实现了用户间数据的共享，可存放全局变量。它开始于服务器的启动，直到服务器的关闭</p>
+<p>7、exception对象 它是一个异常对象，当一个页面在运行过程中发生了异常，就产生这个对象。</p>
+<p>8、pageContext对象 它提供了对JSP页面内所有的对象及名字空间的访问</p>
+<p>9、config对象 它是在一个Servlet初始化时，JSP引擎向它传递信息用的</p>
+<h5>103.四种会话跟踪技术分别是什么？</h5>
+<p><strong>答案：</strong></p>
+<p>page是代表与一个页面相关的对象和属性。一个页面由一个编译好的 Java servlet 类（可以带有任何的 include 指令，但是没有 include 动作）表示。这既包括 servlet 又包括被编译成 servlet 的 JSP 页面</p>
+<p>request是是代表与 Web 客户机发出的一个请求相关的对象和属性。一个请求可能跨越多个页面，涉及多个 Web 组件（由于 forward 指令和 include 动作的关系）</p>
+<p>session是是代表与用于某个 Web 客户机的一个用户体验相关的对象和属性。一个 Web 会话可以也经常会跨越多个客户机请求</p>
+<p>application是是代表与整个 Web 应用程序相关的对象和属性。这实质上是跨越整个 Web 应用程序，包括多个页面、请求和会话的一个全局作用域</p>
+<h5>104.session与servletContext的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>Session是一个会话范围，相当于一个局部变量，从Session第一次创建知道关闭，数据都一直 保存，每一个客户都有一个Session，所以它可以被客户一直访问，只要Session没有关闭和超时即浏览器关闭。</p>
+<p>servletContext    它代表了servlet环境的上下文，相当于一个全局变量，即只要某个web应用在启动中，这个对象就一直都有效的存在，所以它的范围是最大的，存储的数据可以被所有用户使用，只要服务器不关闭，数据就会一直都存在。</p>
+<p>session：</p>
+<p>好处：是一个局部变量，可以保存用户的信息并直接取出，不用每次都去数据库抓，少做操作，极大的方便了程序的编写。</p>
+<p>弊处：每个客户都有一个session，只能自己使用，不同session可能保存大量重复数据； 可能耗费大量服务器内存； 另外session构建在cookie和url重写的基础上，所以用session实现会话跟踪，会用掉一点点服务器带宽和客户端保持联络， 当然session越多，耗费的带宽越多，理论上也会对性能造成影响。 集群的session同步会是个问题。</p>
+<p>servletContext：</p>
+<p>好处：不用每次都去数据库抓，少做操作。 存储的数据所有客户都可以用。 可减少重复在内存中存储数据造成的开销。</p>
+<h5>105.如何处理异常?怎样做到在页面提示用户？</h5>
+<p><strong>答案：</strong></p>
+<p>使用异常有如下几个原则：</p>
+<pre><code>1、尽量避免使用异常，将异常情况提前检测出来。
+
+2、不要为每个可能会出现异常的语句都设置try和catch。
+
+3、避免在方法中抛出（throw）或者捕获（catch）运行时异常RuntimeException和Error。
+
+4、避免总是catch Exception或Throwable，而要catch具体的异常类。这样可以使程序更加清晰。
+
+5、不要压制、隐瞒异常。将不能处理的异常往外抛，而不是捕获之后随便处理。
+
+6、不要在循环中使用try...catch，尽量将try...catch放在循环外或者避免使用。
+
+7、在catch Exception中不只要处理异常，有时还要出栈、对前面的一些变量进行处理，否则可能出现bug
+</code></pre>
+
+<p>如果想把异常的信息在页面上显示，那么通过转发的方式把错误信息带到页面显示</p>
+<h5>106.session与cookie的区别？</h5>
+<p><strong>答案：</strong></p>
+<p>1、cookie数据存放在客户的浏览器上，session数据放在服务器上。</p>
+<p>2、cookie不是很安全，别人可以分析存放在本地的COOKIE并进行COOKIE欺骗
+   考虑到安全应当使用session。</p>
+<p>3、session会在一定时间内保存在服务器上。当访问增多，会比较占用你服务器的性能
+   考虑到减轻服务器性能方面，应当使用COOKIE。
+4、单个cookie保存的数据不能超过4K，很多浏览器都限制一个站点最多保存20个cookie。</p>
+<p>cookie 和session 的联系：
+session是通过cookie来工作的</p>
+<h5>107.Servlet如何处理表单（如何获得请求参数值）需要注意什么？</h5>
+<p><strong>答案：</strong></p>
+<p>用request对象的getParameter方法和getParameterValues方法获取数据</p>
+<p>getParameter(String name)：获得客户端传送给服务器端的有name指定的参数值</p>
+<p>getParameterValues(String name)：获得有name指定的参数的所有值</p>
+<h5>108.什么是 Ajax，优点是什么？</h5>
+<p><strong>答案：</strong></p>
+<p>本质是浏览器的特殊对象，异步发出请求，服务器返回更新页面不用刷新页面</p>
+<p>优点：减轻服务器的负担,按需取数据,最大程度的减少冗余请求，局部刷新页面,减少用户心理和实际的等待时间,带来更好的用户体验，基于xml标准化,并被广泛支持,不需安装插件，进一步促进页面和数据的分离</p>
+<p>缺点：AJAX大量的使用了javascript和ajax引擎,这些取决于浏览器的支持.在编写的时候考虑对浏览器的兼容性.
+AJAX只是局部刷新,所以页面的后退按钮是没有用的.</p>
+<h5>109.什么是同步请求，什么是异步请求？</h5>
+<p><strong>答案：</strong></p>
+<p>同步：提交请求-&gt;等待服务器处理-&gt;处理完毕返回 这个期间客户端浏览器不能干任何事 </p>
+<p>异步：请求通过事件触发-&gt;服务器处理（这是浏览器仍然可以作其他事情）-&gt;处理完毕 </p>
+<h5>110.简述一下spring的事务管理。</h5>
+<p><strong>答案：</strong></p>
+<p>事务：事务是一系列操作组成的工作单元，该工作单元内的操作是不可分割的，即要么所有操作都做，要么所有操作都不做。从数据库的角度来说，就是一组SQL语句。</p>
+<p>事务具有4个特性，缺一不可，即：ACID（原子性、一致性、隔离性和持久性）</p>
+<pre><code>原子性：事务是不可分割的最小单元，事务内的操作要么全部都做，要么全部都不做。
+
+一致性：事务执行时，是从一个一致状态变成另一个一致状态。
+
+隔离性：一个事务的执行，不受其他事务（进程）的干扰。
+
+持久性：事务一旦提交，对数据库的改变是持久的。
+</code></pre>
+
+<p>Spring框架提供了基于编程式事务管理和基于声明式事务管理。</p>
+<h5>111.Spring框架的优缺点都有什么？</h5>
+<p><strong>答案：</strong></p>
+<pre><code>优点：
+
+Spring是分层的架构，你可以选择使用你需要的层而不用管不需要的部分；
+
+Spring是POJO编程，POJO编程使得可持续构建和可测试能力提高；
+
+依赖注入和IoC使得JDBC操作简单化；
+
+Spring是开源的免费的；
+
+Spring使得对象管理集中化合简单化。
+
+缺点：
+
+jsp中要写很多代码
+
+控制器过于灵活，缺少一个公用的控制器
+
+不支持分布式部署
+</code></pre>
+
+<h5>112．列出IOC的3种主要注入方式？</h5>
+<p><strong>答案：</strong></p>
+<p>1.构造方法注入；</p>
+<p>2.设置属性注入；</p>
+<p>3.接口注入。</p>
+<h4>113.如何通过反射创建对象？</h4>
+<p><strong>答案：</strong></p>
+<p>方法1：通过类对象调用newInstance()方法，例如：String.class.newInstance()</p>
+<p>方法2：通过类对象的getConstructor()或getDeclaredConstructor()方法获得构造器（Constructor）对象并调用其newInstance()方法创建对象，例如：String.class.getConstructor(String.class).newInstance(“Hello”);</p>
+<h4>114.简述一下你了解的设计模式（适当了解）？</h4>
+<p><strong>答案：</strong></p>
+<p>所谓设计模式，就是一套被反复使用的代码设计经验的总结（情境中一个问题经过证实的一个解决方案）。</p>
+<p>使用设计模式是为了可重用代码、让代码更容易被他人理解、保证代码可靠性。</p>
+<p>设计模式使人们可以更加简单方便的复用成功的设计和体系结构。将已证实的技术表述成设计模式也会使新系统开发者更加容易理解其设计思路。</p>
+<p>在GoF的《Design Patterns: Elements of Reusable Object-Oriented Software》中给出了三类（创建型[对类的实例化过程的抽象化]、结构型[描述如何将类或对象结合在一起形成更大的结构]、行为型[对在不同的对象之间划分责任和算法的抽象化]）共23种设计模式，包括：</p>
+<pre><code>Abstract Factory（抽象工厂模式）
+
+Builder（建造者模式）
+
+Factory Method（工厂方法模式）
+
+Prototype（原始模型模式）
+
+Singleton（单例模式）
+
+Facade（门面模式）
+
+Adapter（适配器模式）
+
+Bridge（桥梁模式）
+
+Composite（合成模式）
+
+Decorator（装饰模式）
+
+Flyweight（享元模式）
+
+Proxy（代理模式）
+
+Command（命令模式）
+
+Interpreter（解释器模式）
+
+Visitor（访问者模式）
+
+Iterator（迭代子模式）
+
+Mediator（调停者模式）
+
+Memento（备忘录模式）
+
+Observer（观察者模式）
+
+State（状态模式）
+
+Strategy（策略模式）
+
+Template Method（模板方法模式）
+
+ Chain Of Responsibility（责任链模式）
+</code></pre>
+
+<p>面试被问到关于设计模式的知识时，可以拣最常用的作答，例如：</p>
+<p>工厂模式：工厂类可以根据条件生成不同的子类实例，这些子类有一个公共的抽象父类并且实现了相同的方法，但是这些方法针对不同的数据进行了不同的操作（多态方法）。当得到子类的实例后，开发人员可以调用基类中的方法而不必考虑到底返回的是哪一个子类的实例。</p>
+<p>代理模式：给一个对象提供一个代理对象，并由代理对象控制原对象的引用。实际开发中，按照使用目的的不同，代理可以分为：远程代理、虚拟代理、保护代理、Cache代理、防火墙代理、同步化代理、智能引用代理。</p>
+<p>适配器模式：把一个类的接口变换成客户端所期待的另一种接口，从而使原本因接口不匹配而无法在一起使用的类能够一起工作。</p>
+<p>模板方法模式：提供一个抽象类，将部分逻辑以具体方法或构造器的形式实现，然后声明一些抽象方法来迫使子类实现剩余的逻辑。不同的子类可以以不同的方式实现这些抽象方法（多态实现），从而实现不同的业务逻辑。
+除此之外，还可以讲讲上面提到的门面模式、桥梁模式、单例模式、装潢模式（Collections工具类和I/O系统中都使用装潢模式）等，反正基本原则就是拣自己最熟悉的、用得最多的作答，以免言多必失。</p>
+<h4>115.springMVC注解的意思？</h4>
+<p><strong>答案：</strong></p>
+<p>@Controller注解标识一个控制器</p>
+<p>@RequestMapping注解标记一个访问的路径（/index.htm），return &quot;index&quot;标记返回视图（index.jsp）；</p>
+<p>@RequestMapping中定义访问页面的URL模版，使用{}传入页面参数，使用@PathVariable 获取传入参数
+使用@RequestParam 注解获取GET请求或POST请求提交的参数</p>
+<h4>116.spring中beanFactory和ApplicationContext的联系和区别？</h4>
+<p><strong>答案：</strong></p>
+<p>BeanFactory基本的工厂解析,管理,实例化所有容器内的bean的接口,spring中所有解析配置文件的类都直接或者间接实现该接口               </p>
+<p>ApplicationContext接口implements BeanFactory创建对象的特点:</p>
+<p>BeanFactory在解析配置文件时并不会初始化对象,只有在使用对象时(getBean())才会对该对象进行初始化</p>
+<p>ApplicationConte在解析配置文件时对配置文件中的所有对象都初始化了,getBean()方法只是获取对象的过程</p>
+<h4>117.介绍一下 springMVC 的工作原理？（必须掌握）</h4>
+<p><strong>答案：</strong></p>
+<p>springMVC工作原理：整个处理过程从一个HTTP请求开始： </p>
+<pre><code>用户发送请求到前端控制器（DispatcherServlet），DispatcherServlet接收到请求后，
+
+根据对应配置文件中配置的处理器映射，找到对应的处理器映射项（HandlerMapping），
+
+根据配置的映射规则，找到对应的处理器（Handler），调用处理器中的Controller处理请求，
+
+在约定的方法中可以调用Service和Dao等组件完成数据库操作，返回ModelAndView对象交给前端控制器，
+
+前端控制器得到视图对象，找到一个合适的视图解析器(ViewReslover)，根据视图解析器的配置，
+
+前端控制器将视图要显示的数据传递给对应的视图，最后给浏览器制造一个HTTP响应
+</code></pre>
+
+<p>DispatcherServlet是整个Spring MVC的核心。它负责接收HTTP请求组织协调Spring MVC的各个组成部分。其主要工作有以下三项：</p>
+<pre><code>1）截获符合特定格式的URL请求。
+
+2）初始化DispatcherServlet上下文对应的WebApplicationContext，并将其与业务层、持久化层的WebApplicationContext建立关联。
+
+3）初始化Spring MVC的各个组成组件，并装配到DispatcherServlet中。
+</code></pre>
+
+<h4>118.什么是 Inversion of Control ?</h4>
+<p><strong>答案：</strong></p>
+<p>IOC：控制反转，是一种设计模式。</p>
+<p>一层含义是控制权的转移：由传统的在程序中控制依赖转移到由容器来控制；</p>
+<p>第二层含义是依赖注入：将互相依赖的对象分离，在Spring配置文件中描述他们的依赖关系，他们的依赖关系只在使用的时候才建立。</p>
+<h4>119.如何控制bean对象的作用域，默认作用域是什么？</h4>
+<p><strong>答案：</strong></p>
+<p>可以通过<bean>定义的scope属性指定bean对象的作用域或者使用注解@Scope指定Bean对象的作用域</p>
+<h4>120.spring框架和mybaits框架的区别？</h4>
+<p><strong>答案：</strong></p>
+<p>spring:降低程序组件之间的耦合度,结构灵活，用于面向切面编程和注入依赖，让代码更具条理性</p>
+<p>mybatis:封装了JDBC操作,将SQL查询结果映射为对象, 简化数据库访问操作,便于实现DAO操作</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
